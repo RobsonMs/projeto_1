@@ -46,7 +46,7 @@ Class UsersController extends AppController
 	 */
 	public function login()
 	{
-            var_dump('teste');
+          
             
 		$this->layout = 'login';
 		
@@ -98,13 +98,13 @@ Class UsersController extends AppController
 			$email =  $this->request->data['User']['email'];
 			$password = $this->randomPassword();
 			$password1 = $this->Auth->password( $password );
-			$this->User->query("UPDATE users SET password = '$password1' WHERE email = '$email'");
+			$this->User->query("UPDATE user_login SET senha = '$password1' WHERE email = '$email'");
 			$to = $email;
 			$subject = "New Password Request";
 			$txt = "Your New Password ".$password;
-			$headers = "From: admin@smarttutorials.net" . "\r\n" .
-					"CC: admin@smarttutorials.net";
-			
+			$headers = "From: jr.mourasl@gmail.com" . "\r\n" .
+					"CC: jr.mourasl@gmail.com";
+                             
 			if( mail($to,$subject,$txt,$headers) ){
 				$this->Session->setFlash(FORGET_PASSWORD_SUCCESS, 'default', array( 'class' => 'message error'), 'success' );
 				$this->redirect(BASE_PATH.'login');

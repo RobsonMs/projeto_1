@@ -23,13 +23,13 @@
 	<div class="row">
 		<div class="col-xs-6 col-sm-6 col-md-6">
 			<i class="fa fa-lock"></i>
-			<a href="<?php echo BASE_PATH.'forget_password'; ?>"> Forgot password? </a>
+			<a href="<?php echo BASE_PATH.'forget_password'; ?>"> Recuperar Senha? </a>
 		
 		</div>
 		
 		<div class="col-xs-6 col-sm-6 col-md-6">
 			<i class="fa fa-check"></i>
-			<a href="<?php echo BASE_PATH.'login'; ?>"> Sign In </a>
+			<a href="<?php echo BASE_PATH.'login'; ?>"> Entrar </a>
 		</div>
 	</div>
 </div>
