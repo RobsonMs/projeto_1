@@ -46,7 +46,7 @@ Class UsersController extends AppController
 	 */
 	public function login()
 	{
-            
+            var_dump('teste');
             
 		$this->layout = 'login';
 		
