@@ -54,6 +54,7 @@ $(document).ready(function(){
 				required : "Por favor, confirme sua senha",
 				equalTo: "Senhas não correspondem"
 			}
+                        
 		},
 		errorPlacement : function(error, element) {
 			$(element).closest('div').find('.help-block').html(error.html());
