@@ -3,8 +3,8 @@
 .has-success{color:#78b310 !important;border:1px solid #78b310 !important;}
 </style>
 <?php echo $this->Form->create('User', array('id'=>'login', 'role' => 'form', 'method'=> 'post', 'class' => 'form-signin') ); ?>
-	<?php echo $this->Form->input('email', array( 'id' => 'email', 'type'=> 'email', 'class' =>'form-control', 'placeholder' => 'Email address', 'autofocus' => 'autofocus', 'div'=> false, 'label'=> false) ); ?>
-	<?php echo $this->Form->input('senha', array( 'id' => 'password', 'type'=> 'password', 'class' =>'form-control', 'placeholder' => 'Password', 'div'=> false, 'label'=> false) ); ?>
+	<?php echo $this->Form->input('email', array( 'id' => 'email', 'type'=> 'email', 'class' =>'form-control', 'placeholder' => 'Email', 'autofocus' => 'autofocus', 'div'=> false, 'label'=> false) ); ?>
+	<?php echo $this->Form->input('senha', array( 'id' => 'password', 'type'=> 'password', 'class' =>'form-control', 'placeholder' => 'Senha', 'div'=> false, 'label'=> false) ); ?>
 	<?php echo $this->Form->button('Sign in', array( 'id' => 'login_btn', 'value'=> 'Sign in', 'type'=> 'submit', 'class' =>'btn btn-block bt-login') ); ?>
 	<h4 class="text-center login-txt-center">Você pode fazer login usando :</h4> 
 	<a class="btn btn-default facebook" href="<?php echo BASE_PATH.'fblogin'; ?>"> <i class="fa fa-facebook modal-icons"></i> Signin with Facebook </a>

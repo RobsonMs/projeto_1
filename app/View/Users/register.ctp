@@ -1,19 +1,19 @@
 
 <?php echo $this->Form->create('User', array('id'=>'register', 'role' => 'form', 'method'=> 'post', 'class' => 'form-register') ); ?>
 	<div>
-		<?php echo $this->Form->input('nome', array( 'id' => 'name', 'type'=> 'text', 'class' =>'form-control', 'placeholder' => 'Name', 'div'=> false, 'label'=> false) ); ?>
+		<?php echo $this->Form->input('nome', array( 'id' => 'name', 'type'=> 'text', 'class' =>'form-control', 'placeholder' => 'Nome', 'div'=> false, 'label'=> false) ); ?>
 		<span class="help-block"></span>
 	</div>
 	<div>
-		<?php echo $this->Form->input('email', array( 'id' => 'email', 'type'=> 'email', 'class' =>'form-control', 'placeholder' => 'Email address', 'div'=> false, 'label'=> false) ); ?> 
+		<?php echo $this->Form->input('email', array( 'id' => 'email', 'type'=> 'email', 'class' =>'form-control', 'placeholder' => 'Email', 'div'=> false, 'label'=> false) ); ?> 
 		<span class="help-block"></span>
 	</div>
 	<div>
-		<?php echo $this->Form->input('senha', array( 'id' => 'password', 'type'=> 'password', 'class' =>'form-control', 'placeholder' => 'Password', 'div'=> false, 'label'=> false) ); ?> 
+		<?php echo $this->Form->input('senha', array( 'id' => 'password', 'type'=> 'password', 'class' =>'form-control', 'placeholder' => 'Senha', 'div'=> false, 'label'=> false) ); ?> 
 		<span class="help-block"></span>
 	</div>
 	<div>
-		<?php echo $this->Form->input('confirm_password', array( 'id' => 'confirm_password', 'type'=> 'password', 'class' =>'form-control', 'placeholder' => 'Confirm Password', 'div'=> false, 'label'=> false) ); ?> 
+		<?php echo $this->Form->input('confirm_password', array( 'id' => 'confirm_password', 'type'=> 'password', 'class' =>'form-control', 'placeholder' => 'Confirmar Senha', 'div'=> false, 'label'=> false) ); ?> 
 		<span class="help-block"></span>
 	</div>
 	<?php echo $this->Form->button('Sign Up', array( 'id' => 'register_btn', 'type'=> 'submit', 'class' =>'btn btn-block bt-login') ); ?>

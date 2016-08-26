@@ -41,18 +41,18 @@ $(document).ready(function(){
 		},
 		messages : {
 			name : {
-				required : "Please enter name"
+				required : "Por favor insira seu nome"
 			},
 			email : {
-				required : "Please enter email",
-				remote : "Email already exists"
+				required : "Por favor insira seu email",
+				remote : "Email já existe"
 			},
 			password : {
-				required : "Please enter password"
+				required : "Por favor insira sua senha"
 			},
 			confirm_password : {
-				required : "Please enter confirm password",
-				equalTo: "Password and confirm password doesn't match"
+				required : "Por favor, confirme sua senha",
+				equalTo: "Senhas não correspondem"
 			}
 		},
 		errorPlacement : function(error, element) {
