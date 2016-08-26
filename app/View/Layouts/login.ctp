@@ -9,7 +9,7 @@
 	<meta content='FOLLOW,INDEX' name='robots'/>
 	<link href='https://plus.google.com/+MuniAyothi/' rel='author'/>
 	
-    <title>CakePHP Auth Component Login Tutorial</title>
+    <title>Login de Usuario</title>
 	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
     <?php echo $this->Html->css( array('bootstrap.min', 'font-awesome.min', 'login' )); ?>
@@ -32,7 +32,7 @@
 				<?php echo $this -> Session -> flash('error'); ?>
 			<?php } ?>
 			
-			<h1 class="text-center">Smart Tutorials</h1>
+<!--			<h1 class="text-center">Smart Tutorials</h1>-->
 			<div class="form-header">
 				<i class="fa fa-user"></i>
 			</div>
@@ -44,9 +44,9 @@
 	<script>
 		$(".message").delay(3200).fadeOut(1000);
 	</script>
-	<div class="well text-center">
+<!--	<div class="well text-center">
 		<p> Back To Tutorial - <a href="#"> CakePHP Auth Component Login Tutorial</a></p>
-	</div>
+	</div>-->
 	<div class="clearfix"></div>
   </body>
 </html>
