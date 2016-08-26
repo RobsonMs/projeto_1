@@ -49,6 +49,11 @@ Class UsersController extends AppController
           
             var_dump('teste');
             
+            
+            
+            
+            
+            
 		$this->layout = 'login';
 		
 		$id = $this->Auth->user('id');
